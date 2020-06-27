@@ -206,7 +206,7 @@ def user_stats(df):
 def raw_data(df,city):
    responses = ['yes','no']
    while True:
-    responses = input("Would you like to see 5 rows of the raw data? enter yes or no : ").lower()
+    responses = input("Would you like to see 5 rows of the raw data? enter yes to proceed or no to abort: ").lower()
     if responses == 'yes' and city != 'washington' :
       print(df[['Start Time','End Time','Trip Duration','Start Station','End Station','User Type','Gender','Birth Year']].head())
       break
