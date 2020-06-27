@@ -208,6 +208,9 @@ def user_stats(df):
      and display if answer is yes """
     
 def raw_data(df,city):
+
+     """Accept value for response on whether to display data or not """
+
    responses = ['yes','no']
    while True:
     responses = input("Would you like to see 5 rows of the raw data? enter yes or no : ").lower()
