@@ -109,7 +109,9 @@ def time_stats(df):
 
     # TO DO: display the most common day of week
     print('\nMost common day of week is :')
-    print(list(df['day_of_week'].mode()))
+    common_day_of_week = df['day_of_week'].mode()[0]
+    print (common_day_of_week)
+    #print(list(df['day_of_week'].mode()))
 
 
     # TO DO: display the most common start hour 
@@ -213,7 +215,7 @@ def raw_data(df,city):
 
    responses = ['yes','no']
    while True:
-    responses = input("Would you like to see 5 rows of the raw data? enter yes or no : ").lower()
+    responses = input("Would you like to see 5 rows of the raw data? enter yes to proceed or no to abort it: ").lower()
     if responses == 'yes' and city != 'washington' :
       print(df[['Start Time','End Time','Trip Duration','Start Station','End Station','User Type','Gender','Birth Year']].head())
       break
