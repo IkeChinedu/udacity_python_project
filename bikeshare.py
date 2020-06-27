@@ -10,6 +10,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
+  
+    This would determine the data displayed on the console.
 
     Returns:
         (str) city - name of the city to analyze
@@ -51,7 +53,11 @@ def get_filters():
 
 def load_data(city, month, day):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified city and filters by month and day if applicable. 
+
+    This is the criteria for the data displayed
+
+
 
     Args:
         (str) city - name of the city to analyze
@@ -202,6 +208,9 @@ def user_stats(df):
      and display if answer is yes """
     
 def raw_data(df,city):
+
+     """Accept value for response on whether to display data or not """
+
    responses = ['yes','no']
    while True:
     responses = input("Would you like to see 5 rows of the raw data? enter yes or no : ").lower()

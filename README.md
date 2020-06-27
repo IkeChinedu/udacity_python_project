@@ -7,5 +7,10 @@ Libraries used - pandas and numpy
 
 files used -  Chicago.csv, New_York_City.csv and Washington.csv
 
+<<<<<<< HEAD
+=======
+Challenges - Maintaining Work study balance during the project
+
+>>>>>>> documentation
 
 Necessary acknowledgments - Udacity team 
