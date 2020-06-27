@@ -1,5 +1,5 @@
 # udacity_python_project
-The project title -   Python project at Udacity Programming For Data Science
+The project title -   Python project at Udacity Programming For Data Science Nanodegree
 
 Project description - In this project i  used Python to explore data related to bike share systems for three major cities in the United States — Chicago, New York City, and Washington
 
